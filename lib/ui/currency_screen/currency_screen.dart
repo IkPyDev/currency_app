@@ -323,7 +323,7 @@ void myBottomSheetDialog(
         return Container(
 
             // padding: MediaQuery.of(ctx).viewInsets,
-            padding: const EdgeInsets.all(16),
+            padding: const EdgeInsets.all(16)+MediaQuery.of(context).viewInsets,
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
